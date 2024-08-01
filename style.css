@@ -1,0 +1,57 @@
+#topo{
+    background-color: #8944ca;
+    color: white;
+    padding: 50px;
+    margin: 0px;;
+}
+
+#nav{ 
+    color: aliceblue;
+    padding-left: 50px;
+}
+
+body{
+    background-color: #d0b3eb;
+}
+
+body h1{
+    text-align: center;
+    color: #8944ca;;
+}
+
+body p{
+    text-align: justify;
+    padding-left: 50px;
+}
+.meio{
+    text-align: center;
+}
+
+#imagem-body{
+    padding-left: 50px;
+}
+
+#logo{
+    background-color: #8944ca;
+    padding: 50px;
+    margin: 0px;;
+}
+
+.final{
+    background-color: #8944ca;
+    padding: 50px
+}
+
+#texto-final{
+    color: white;
+}
+body h2{
+    text-align: center;
+    color: white;
+}
+
+#bottom{
+    text-align: center;
+    color: white;
+}
+
