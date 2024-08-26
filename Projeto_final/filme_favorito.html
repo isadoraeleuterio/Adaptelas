@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu cinema</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./filme_favorito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js"> </script>
+</head>
+<body>
+    <header>
+        <h1>MEU FILME FAVORITO</h1>
+        <ul>
+            <li>
+                <a href="./index.html" class="link-pagina">Pagina Inicial</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="div-informacoes">
+            <h2 id="nome"> THELMA E LOUISE</h2>
+            <div>
+                <h2> ULTIMA VEZ QUE ASSISTI</h2>
+                <P id="data">08/08/2024</P>
+            </div>
+            <div>
+                <h2>DESCRIÇAO</h2>
+                <P id="descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sapiente commodi laboriosam, sint molestias nihil facere hic tempora rerum, fuga aliquid voluptate itaque earum laudantium ipsam vitae repudiandae aspernatur iure.                    
+                </P>
+            </div>
+        </div>
+        <div class="personagens">
+            <h2>PERSONAGENS</h2>
+            <div class="cards">
+                <div>
+                    <h2 id="personagem-um">Louise</h2>
+                    <img src="./imagens/Susan Sarandon in “Thelma and Louise” (1991).jpg" alt="personagem-um" id="img-p1">
+                </div>
+                <div>
+                    <h2 id="personagem-dois">Thelma</h2>
+                    <img src="./imagens/thelma.jpg" alt="personagem-dois" id="img-p2">
+                </div>
+                <div>
+                    <h2 id="personagem-tres">J.D</h2>
+                    <img src="./imagens/brad pitt.jpg" alt="personagem-tres" id="img-p3">
+                </div>
+            </div>
+           
+        </div> 
+        <button id="abrir-modal">Editar Filme</button>
+    </main>
+
+    <div class="escondida div-modal" id="modal"> 
+        <div>
+            <h2> Adicionar Filme</h2>
+            <form action="" id="novo-filme">
+                <label for="novo-nome">Nome</label>
+                <input type="text" placeholder="Nome do filme" id="novo-nome">
+                <label for="nova-data">Data</label>
+                <input type="date" placeholder="data em que assisti" id="nova-data" >
+                <label for="nova-descricao">Descrição</label>
+                <input type="text" placeholder="Descrição do filme" id="nova-descricao">
+                <label for="novo-p1">Nome do Personagem 1</label>
+                <input type="text" placeholder="Nome do personagem um" id="novo-p1">
+                <label for="nova-imagem-p1">Imagem do Personagem 1</label>
+                <input type="file" placeholder="Imagem do personagem um" id="nova-imagem-p1" class="input-arquivo">
+                <label for="novo-p1">Nome do Personagem 2</label>
+                <input type="text" placeholder="Nome do personagem dois" id="novo-p2">
+                <label for="nova-imagem-p2">Imagem do Personagem 2</label>
+                <input type="file" placeholder="Imagem do personagem dois" id="nova-imagem-p2" class="input-arquivo">
+                <button id="novo-filme">Salvar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p> Desenvolvido por <b>Adapti</b> com <i class="fa fa-solid fa-heart"></i></p>
+    </footer>
+    
+</body>
+</html>

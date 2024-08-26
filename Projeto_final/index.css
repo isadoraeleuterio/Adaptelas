@@ -1,0 +1,115 @@
+/* main*/
+main{
+    margin-bottom: 3rem;
+}
+
+/* banner */
+.banner{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    background-image: linear-gradient(rgba(96, 7, 148, 0.5), rgba(16, 0, 26, 0.5)), url(./imagens/viagem_a_lua.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+}
+
+.banner > img{
+    width: 300px;
+    margin-right: 2rem;
+}
+
+.banner > h2{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+/* div-cards */
+.div-cards{
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card */
+.card{
+    width: 21.25rem;
+}
+
+.cabecalho{
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho > img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 28rem;
+}
+
+.cabecalho > h2{
+    font-size: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    background-color: var(--claro-roxo);
+    color: var(--roxo);
+    border-radius: 0 0 1.5rem 1.5rem;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo > p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1,2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    max-height: 3rem;
+    min-height: 3rem;
+}
+
+.rodape{
+    display: flex;
+    padding: 03rem 1rem 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.estrelas > button{
+    background-color: transparent;
+    border: none;
+}
+
+.marcada{
+    color: var(--roxo);
+}
+
+@media screen and (max-width: 425px) {
+    .banner > img{
+        width: 200px;
+    }
+
+    .banner > h2{
+        font-size: 1.3rem;
+    }
+
+}
